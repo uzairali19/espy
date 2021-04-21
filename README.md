@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Newsweek clone (Bootstrap)
+# Capstone Project (HTML, CSS & JS)
 
 > The project is a capstone project of week 4 of microverse. We have to assume that a UI is given to us and replicate that just by looking at it. This is done in all 3 screensizes using media queries and bootstrap classes. Use of Flexbox and Grid would also be shown in the website of evaluating purposes.
 
