@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>ESPY - Search Results</title>
+  </head>
+  <body>
+    <header class="header d-flex bg-main">
+      <div class="d-flex logo">
+        <a href="index.html"
+          ><i class="fas fa-search-location text-light mt-2 logo-icon"></i
+        ></a>
+        <a href="index.html" class="text-decoration-none text-light ps-1"
+          ><h1>ESPY</h1></a
+        >
+      </div>
+      <nav class="d-flex text-light mb-2">
+        <div class="nav-bar">
+          <a href="search-results.html" class="text-light text-decoration-none">
+            <i class="fas fa-search"></i>
+          </a>
+          <a href="search-results.html" class="text-light text-decoration-none"
+            ><p class="show">Locations</p></a
+          >
+        </div>
+        <div class="nav-bar">
+          <i class="far fa-user"></i>
+          <p class="show">ABOUT</p>
+        </div>
+        <div class="nav-bar">
+          <i class="fas fa-wifi"></i>
+          <p class="show">BLOG</p>
+        </div>
+        <div class="nav-bar">
+          <i class="fas fa-bars"></i>
+          <p class="show">MORE...</p>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Filter -->
+      <section class="filter px-4 my-5 py-5">
+        <h2 class="fs-5 text-secondary text-center">
+          Filter by name, country, cuisine or category:
+        </h2>
+        <form action="#" class="grid-container">
+          <div class="py-1 pe-md-1">
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              class="form-control"
+            />
+          </div>
+          <div class="py-1 pe-md-1">
+            <select
+              class="form-select form-control"
+              aria-label=".form-select-sm example"
+            >
+              <option selected>Country</option>
+              <option value="1">UK</option>
+              <option value="2">USA</option>
+              <option value="3">AUSTRALIA</option>
+              <option value="4">PAKISTAN</option>
+              <option value="5">FRANCE</option>
+              <option value="6">TURKEY</option>
+              <option value="7">CANADA</option>
+              <option value="8">JAPAN</option>
+            </select>
+          </div>
+          <div class="py-1 pe-md-1">
+            <select class="form-select" aria-label=".form-select-sm example">
+              <option selected>Hotel</option>
+              <option value="1">LUXURY</option>
+              <option value="2">AVERAGE</option>
+              <option value="3">ECONOMICAL</option>
+            </select>
+          </div>
+          <div class="py-1 pe-md-1">
+            <select class="form-select" aria-label=".form-select-sm example">
+              <option selected>Seasons</option>
+              <option value="1">SUMMER</option>
+              <option value="2">WINTERS</option>
+              <option value="3">SPRING</option>
+              <option value="4">AUTUMN</option>
+            </select>
+          </div>
+          <div class="py-1 pe-md-1">
+            <a
+              href="search-results.html"
+              class="filter-search w-100 form-control text-light text-decoration-none text-center"
+              >Search</a
+            >
+          </div>
+          <div class="py-1 pe-md-1">
+            <a
+              href="search-results.html"
+              class="filter-clear w-100 form-control text-light text-decoration-none text-center"
+              ><i class="fas fa-edit"></i>Clear Filter</a
+            >
+          </div>
+        </form>
+      </section>
+      <!-- Locations -->
+      <section class="my-5">
+        <h2 class="fs-5 text-secondary text-center">
+          <span class="fw-bold">Search Results</span> Found 9 Locations.
+        </h2>
+        <div class="container p-3 container2">
+          <div class="card shadow mb-5 bg-body rounded">
+            <img
+              src="https://www.planetware.com/wpimages/2019/09/top-places-to-visit-in-the-world-paris-france.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Paris, France</h5>
+              <p class="card-text">
+                Toronto and Vancouver are tough competitors, but Calgary is
+                officially the most liveable city in Canada. Sitting pretty
+                alongside the Canadian Rockies, Calgary boasts perfect scores in
+                4 out of 5 of the index's scoring categories.
+              </p>
+              <a href="details.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card shadow mb-5 bg-body rounded">
+            <img
+              src="https://www.planetware.com/wpimages/2019/09/top-places-to-visit-in-the-world-manhattan-new-york.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">New York, USA</h5>
+              <p class="card-text">
+                Toronto and Vancouver are tough competitors, but Calgary is
+                officially the most liveable city in Canada. Sitting pretty
+                alongside the Canadian Rockies, Calgary boasts perfect scores in
+                4 out of 5 of the index's scoring categories.
+              </p>
+              <a href="details.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card shadow mb-5 bg-body rounded">
+            <img
+              src="https://static01.nyt.com/images/2020/12/22/world/19virus-uk-1sub/19virus-uk-1sub-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sydney, Australia</h5>
+              <p class="card-text">
+                Toronto and Vancouver are tough competitors, but Calgary is
+                officially the most liveable city in Canada. Sitting pretty
+                alongside the Canadian Rockies, Calgary boasts perfect scores in
+                4 out of 5 of the index's scoring categories.
+              </p>
+              <a href="details.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card shadow mb-5 bg-body rounded">
+            <img
+              src="https://i.dailymail.co.uk/i/pix/2016/01/02/08/2FBC4A8C00000578-3381283-image-a-1_1451722923080.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">London, UK</h5>
+              <p class="card-text">
+                Toronto and Vancouver are tough competitors, but Calgary is
+                officially the most liveable city in Canada. Sitting pretty
+                alongside the Canadian Rockies, Calgary boasts perfect scores in
+                4 out of 5 of the index's scoring categories.
+              </p>
+              <a href="details.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card shadow mb-5 bg-body rounded">
+            <img
+              src="https://www.travelmate.com.pk/wp-content/uploads/2015/05/cappadocia.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Istanbul, Turkey</h5>
+              <p class="card-text">
+                Toronto and Vancouver are tough competitors, but Calgary is
+                officially the most liveable city in Canada. Sitting pretty
+                alongside the Canadian Rockies, Calgary boasts perfect scores in
+                4 out of 5 of the index's scoring categories.
+              </p>
+              <a href="details.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card shadow mb-5 bg-body rounded">
+            <img
+              src="https://www.tripfore.com/wp-content/uploads/2019/01/Bhurban-bstatis-1024x768.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bhurbun, Pakistan</h5>
+              <p class="card-text">
+                Toronto and Vancouver are tough competitors, but Calgary is
+                officially the most liveable city in Canada. Sitting pretty
+                alongside the Canadian Rockies, Calgary boasts perfect scores in
+                4 out of 5 of the index's scoring categories.
+              </p>
+              <a href="details.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card shadow mb-5 bg-body rounded">
+            <img
+              src="https://media.cntraveler.com/photos/5ea0a525f98d8600087fa01e/master/w_1600%2Cc_limit/Adelaide-GettyImages-517015572.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Adelaide, Australia</h5>
+              <p class="card-text">
+                Toronto and Vancouver are tough competitors, but Calgary is
+                officially the most liveable city in Canada. Sitting pretty
+                alongside the Canadian Rockies, Calgary boasts perfect scores in
+                4 out of 5 of the index's scoring categories.
+              </p>
+              <a href="details.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card shadow mb-5 bg-body rounded">
+            <img
+              src="https://media.cntraveler.com/photos/5e26a10c2245530008bbdf64/master/w_1600%2Cc_limit/Toronto-flight-deal-GettyImages-636577766.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Toronto, Canada</h5>
+              <p class="card-text">
+                Toronto and Vancouver are tough competitors, but Calgary is
+                officially the most liveable city in Canada. Sitting pretty
+                alongside the Canadian Rockies, Calgary boasts perfect scores in
+                4 out of 5 of the index's scoring categories.
+              </p>
+              <a href="details.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card shadow mb-5 bg-body rounded">
+            <img
+              src="https://media.cntraveler.com/photos/5a99a85dafa6cb3864785ca5/master/w_1600%2Cc_limit/Tokyo_GettyImages-505797368.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Tokyo, Japan</h5>
+              <p class="card-text">
+                Toronto and Vancouver are tough competitors, but Calgary is
+                officially the most liveable city in Canada. Sitting pretty
+                alongside the Canadian Rockies, Calgary boasts perfect scores in
+                4 out of 5 of the index's scoring categories.
+              </p>
+              <a href="details.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-footer">
+      <div class="text-light px-3 py-4">
+        <div class="footer-flex py-2 fw-bold footer-nav bg-footer-all">
+          <div class="footer-flex-top bg-footer-top">
+            <a href="index.html">HOME</a>
+            <a href="search-results.html">SEARCH</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">ADVERTISE</a>
+          </div>
+          <a href="#" class="round bg-footer show-footer"
+            ><i class="fas fa-search-location fs-3 bg-footer-mid"></i
+          ></a>
+          <div class="pt-1 footer-flex-top bg-footer-bottom">
+            <a href="#">FACEBOOK</a>
+            <a href="#">TWITTER</a>
+            <a href="#">INSTAGRAM</a>
+            <a href="#">BLOG</a>
+          </div>
+        </div>
+        <div class="mt-3 row d-md-flex align-items-md-center">
+          <div class="pt-2 col-md-5">
+            <h5 class="text-center">SUBSCRIBE</h5>
+            <form action="#" class="input-group mb-3 mx-auto">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="you@example.com"
+                aria-label="you@example.com"
+                aria-describedby="addon2"
+              />
+              <span class="input-group-text" id="addon2">send</span>
+            </form>
+          </div>
+          <div class="text-center pt-2 col-md-3">
+            <h5>CONTACT</h5>
+            <p>
+              Have a question or submission?
+              <a href="#" class="main-text fw-bold text-decoration-none"
+                >info@ESPY.com</a
+              >
+            </p>
+          </div>
+          <div class="text-center pt-2 col-md-4">
+            <h5>ABOUT</h5>
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ea
+              architecto earum dignissimos sit dolorum dolore at?
+              <a href="#" class="main-text fw-bold text-decoration-none"
+                >Learn More...</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-social p-3 d-md-flex justify-content-md-between">
+        <div class="d-flex justify-content-center">
+          <a href="#" class="px-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="px-3"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="px-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="px-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="px-3"><i class="fab fa-telegram"></i></a>
+        </div>
+        <div>
+          <p class="famous-text mb-0 text-center">
+            &copy; ESPY 2021. ALL RIGHTS RESERVED
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
