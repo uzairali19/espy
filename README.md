@@ -22,6 +22,12 @@
 
 To get a local copy up and running follow these simple example steps.
 
+1. Clone the reposiotry. (See Setup Local Below)
+2. Use "npm i" to install the required node_modules
+3. Open "index.html" with live server.
+4. Enjoy scrolling around.
+5. Fork this project to submit a pull request.
+
 ### Prerequisites
 
 Git
