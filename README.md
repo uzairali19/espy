@@ -2,7 +2,7 @@
 
 # Capstone Project (HTML, CSS & JS)
 
-> The project is a capstone project of week 4 of microverse. We have to assume that a UI is given to us and replicate that just by looking at it. This is done in all 3 screensizes using media queries and bootstrap classes. Use of Flexbox and Grid would also be shown in the website of evaluating purposes.
+> The project is a capstone project of week 4 of Microverse. We have to assume that a UI is given to us and replicate that just by looking at it. This is done in all 3 screen sizes using media queries and bootstrap classes. The use of Flexbox and Grid would also be shown on the website for evaluating purposes.
 
 ![](./screenshot.png)
 
@@ -86,4 +86,4 @@ Contributions, issues, and feature requests are welcome!
 
 # Show your support
 
-Give a ⭐️ if you like this project!
+Give and ⭐️ if you like this project!

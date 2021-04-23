@@ -331,7 +331,7 @@ form {
   }
 
   .more .flex-large-row {
-    flex-direction: row !important;
+    flex-direction: row;
   }
 
   .more-text {
